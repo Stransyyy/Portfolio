@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.profile-name {
+    margin: 10px;
+    position: relative;
+    -webkit-animation: alternate-reverse 1s ease-in-out infinite;
+    animation: alternate-reverse 1s ease-in-out infinite;
+}
+
+.profile-picture img {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    background-color: rgb(138, 194, 146);
+    padding: 2px;
+    position: relative;
+    left: 5%;
+    border: 1px solid #56c441;
+}
+
+
+section {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: .9em;
+    background-color: #333;
+    color: #acacac;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.project img{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    background-color: rgb(253, 253, 253);
+    padding: 3px;
+    position: relative;
+    left: 3%;
+    border: 2px solid #659620;
+}
+
+.socials a:link{
+    color: #dbb13d;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.socials a:visited{
+    color: #abcc8d;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.socials a:hover{
+    color: #ac8e09;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.contact {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: auto;
+    top: 100px;
+}
